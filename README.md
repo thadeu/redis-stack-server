@@ -1,5 +1,9 @@
 <h1 align="center">Redis Stack Server</h1>
 
+<p align="center">
+ A Docker template to create a Full Stack Redis Server in your environment.
+</p>
+
 <p align="center" width="100%">
   <img width="200px" src="images/redis.png">
 </p>
