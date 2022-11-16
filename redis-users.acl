@@ -1,0 +1,1 @@
+user worker on allkeys +@all -@dangerous on >YOUR_SECRET

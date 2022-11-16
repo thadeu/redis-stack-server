@@ -1,0 +1,19 @@
+version: '3.1'
+
+services:
+  #
+  # Reference
+  # https://redis.io/docs/stack/get-started/install/docker/
+  redis-stack:
+    image: redis/redis-stack-server:latest
+    container_name: redis-stack
+    restart: always
+    volumes:
+      - ./data:/data
+      - ./redis-users.acl:/users.acl
+      - ./redis-stack.conf:/redis-stack.conf
+    ports:
+      - 5879:6379
+
+volumes:
+  redis-stack:
