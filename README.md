@@ -4,6 +4,10 @@
  A Docker template to create a Full Stack Redis Server in your environment.
 </p>
 
+<p align="center">
+  <a href="https://redis.io/docs/stack/" target="_blank">Redis Stack Server</a>
+</p>
+
 <p align="center" width="100%">
   <img width="200px" src="images/redis.png">
 </p>
