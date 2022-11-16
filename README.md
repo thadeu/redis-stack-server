@@ -1,7 +1,7 @@
-<h1 style="text-align: center;">Redis Stack Server</h1>
+<h1 align="center">Redis Stack Server</h1>
 
 <p align="center" width="100%">
-  <img width="100px" src="images/redis.png">
+  <img width="200px" src="images/redis.png">
 </p>
 
 ## How to use?
@@ -27,3 +27,12 @@ Acess the Redis Insight using 8002 port.
 <p align="center" width="100%">
   <img width="100%" src="images/insight.png">
 </p>
+
+
+## License
+
+The Dockerfile and associated scripts and documentation in this project are released under the [MIT License](LICENSE).
+
+## Contributing
+
+We have a long list of valued contributors. Check them all at: https://github.com/thadeu/redis-stack-server.
